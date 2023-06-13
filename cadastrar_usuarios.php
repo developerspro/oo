@@ -8,9 +8,11 @@
     <title>Document</title>
 </head>
 <body>
+    <?php include_once 'menu.php';?>
     <div class="container mt-3">
         <div class="row">        <div class="col-4"> </div>
-        <div class="col-4"><form action="login.php" method="post">
+        <div class="col-4">
+            <form action="insertUsuarios.php" method="post">
           <label for="" class="form-label">Usuario</label>  
           <input type="text" name="usuario" id="" class="form-control">
          
